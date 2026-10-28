@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Red Pen Debrief</title>
+  <meta name="description" content="Projector slides for the Red Pen debrief. Arrow keys to move.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Caveat:wght@600;700&family=Public+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/debrief.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M6 26 L22 6 L26 10 L10 30 L4 30 Z' fill='%23C8102E'/%3E%3C/svg%3E">
+</head>
+<body class="deck">
+  <main id="deck">
+
+    <section class="slide" data-title="Report">
+      <p class="kicker">Red Pen debrief</p>
+      <h1>Paste your row</h1>
+      <ol class="big-steps">
+        <li>On the last screen, click <b>Copy my row</b>.</li>
+        <li>Open the class sheet and click <b>column A of the row with your pair number</b>.</li>
+        <li>Paste. One row per pair.</li>
+      </ol>
+      <p class="sheet-link" id="sheet-link"></p>
+    </section>
+
+    <section class="slide" data-title="The sealed meter">
+      <p class="kicker">Start here</p>
+      <h1>The meter you couldn't see</h1>
+      <p class="lede">All year you watched efficiency, quality and trust. Legal exposure stayed sealed until December. That is how it works at a real employer.</p>
+      <div class="two">
+        <div class="fact"><span class="fact-num">2</span><span>complaints in two years under New York City's AI hiring law. The city found 1 compliance problem in 32 companies; state auditors looking at the same companies found at least 17. (NY State Comptroller, Dec 2025)</span></div>
+        <div class="fact"><span class="fact-num">2023 to 2027</span><span>Mobley v. Workday was filed in February 2023. Class certification is set for a hearing in March 2027.</span></div>
+      </div>
+      <p class="ask">Ask: whose exposure number surprised them? Which decision put it there?</p>
+    </section>
+
+    <section class="slide" data-title="Hire">
+      <p class="kicker">January: Hire</p>
+      <h1>"It never sees birthdates."</h1>
+      <div class="two">
+        <div>
+          <p class="math"><span>21.6% ÷ 30.0% =</span> <b>0.72</b></p>
+          <p class="lede">Below 0.80 fails the four-fifths rule (1978). Men vs women was 0.99. Crossed with age, older men came out at 0.61.</p>
+          <p class="pen-big">It reads graduation year.</p>
+        </div>
+        <ul class="real-list">
+          <li><b>iTutorGroup, 2023.</b> Software auto-rejected women 55+ and men 60+. $365,000, the EEOC's first AI-hiring settlement.</li>
+          <li><b>Mobley v. Workday.</b> The vendor can be sued as the employers' "agent." That adds a defendant. It doesn't remove one.</li>
+          <li><b>Illinois, 2026.</b> ZIP codes barred as proxies in AI hiring decisions.</li>
+        </ul>
+      </div>
+      <p class="ask">Ask: who signed as pitched? Who computed the 0.72 and signed anyway? What does "bias-free by design" actually promise?</p>
+    </section>
+
+    <section class="slide" data-title="Develop">
+      <p class="kicker">March: Develop</p>
+      <h1>91% agreement with whom?</h1>
+      <p class="lede">PathFinder was trained to predict who your managers promoted, not who led well. Its accuracy is how faithfully it copies the past. Night shift: 38% of nurses, 7% of its picks.</p>
+      <p class="pen-big">The label is the decision.</p>
+      <p class="ask">Ask: what should it predict instead, and could Three Rivers actually measure that? Same question for Amazon's resume tool, trained on ten years of its own hires.</p>
+    </section>
+
+    <section class="slide" data-title="Watch">
+      <p class="kicker">June: Watch</p>
+      <h1>Score up 30%. Work flat.</h1>
+      <div class="two">
+        <table class="data big">
+          <thead><tr><th></th><th>Week 1</th><th>Week 2</th></tr></thead>
+          <tbody>
+            <tr><td>PulseScore</td><td>61</td><td>79</td></tr>
+            <tr class="hl"><td>Claims resolved</td><td>42</td><td>41</td></tr>
+          </tbody>
+        </table>
+        <ul class="real-list">
+          <li><b>Microsoft, Dec 2020.</b> Removed user names from Productivity Score: it "was never designed to score individual users."</li>
+          <li><b>Gartner.</b> Tracked workers nearly twice as likely to pretend to work.</li>
+        </ul>
+      </div>
+      <p class="ask">Ask: when you measure motion, people produce motion. What is the output measure for your own last job?</p>
+    </section>
+
+    <section class="slide" data-title="Predict">
+      <p class="kicker">September: Predict</p>
+      <h1>94% accurate. Guessing gets 95%.</h1>
+      <div class="two">
+        <table class="data big matrix">
+          <thead><tr><th></th><th>Left</th><th>Stayed</th></tr></thead>
+          <tbody>
+            <tr><th>Flagged</th><td>120</td><td class="hl">180</td></tr>
+            <tr><th>Not flagged</th><td class="hl">180</td><td>5,520</td></tr>
+          </tbody>
+        </table>
+        <div>
+          <p class="lede">Only 5% of nurses resign in 90 days, so "nobody leaves" is right 95% of the time. FlightRisk's flags are wrong 6 times in 10.</p>
+          <p class="pen-big">Same model. Two uses.</p>
+          <p class="lede small-lede">Handed to managers one nurse at a time, it sidelines people, some of them for taking protected leave. Rolled up to units, it found three new managers behind a third of exits.</p>
+        </div>
+      </div>
+      <p class="ask">Ask: IBM claimed 95% in 2019 and never showed the method. What two numbers would you ask for first?</p>
+    </section>
+
+    <section class="slide" data-title="Restructure">
+      <p class="kicker">November: Restructure</p>
+      <h1>70% of tickets, 25% of the work</h1>
+      <ul class="real-list wide">
+        <li><b>Klarna.</b> "Our AI does the work of 700 agents" (2024), then a return to human agents (2025). Service and operations costs still rose, from $42M to $50M.</li>
+        <li><b>Duolingo.</b> "Headcount will only be given if a team cannot automate more of their work." Three weeks later: "I didn't do that well."</li>
+        <li><b>Stanford, Aug 2026.</b> Employment of 22 to 25 year olds in the most AI-exposed jobs trails less-exposed peers by 19%, mostly through less hiring.</li>
+      </ul>
+      <p class="ask">Ask: if the junior coordinator job is automated, where do your HR business partners come from in 2032?</p>
+    </section>
+
+    <section class="slide" data-title="Checklist">
+      <p class="kicker">Where did you spend your eight hours?</p>
+      <h1>Before you sign</h1>
+      <ol class="checklist">
+        <li>Selection rates by group, <b>and by intersections</b></li>
+        <li>The features, and what each one stands in for</li>
+        <li>The training label: what exactly is it predicting?</li>
+        <li>Validation against outcomes, not against past decisions</li>
+        <li>The base rate and the full confusion matrix</li>
+        <li>Who sees individual scores, and what they can do with them</li>
+        <li>The contract: audit rights and who carries liability</li>
+        <li>The human route: who can override it, and how fast</li>
+      </ol>
+    </section>
+
+  </main>
+  <nav class="deck-nav" aria-label="Slides">
+    <button type="button" id="prev" aria-label="Previous slide">‹</button>
+    <span id="pos" aria-live="polite"></span>
+    <button type="button" id="next" aria-label="Next slide">›</button>
+  </nav>
+  <script type="module">
+    import { SHEET_URL } from "./js/config.js";
+    const p = new URLSearchParams(location.search).get("sheet");
+    const url = (() => { try { const u = new URL(p); return u.protocol === "https:" ? u.href : null; } catch { return null; } })() || SHEET_URL;
+    const link = document.getElementById("sheet-link");
+    if (url) {
+      const a = document.createElement("a");
+      a.href = url; a.target = "_blank"; a.rel = "noopener"; a.textContent = "Open the class sheet";
+      link.append(a);
+    }
+
+    const slides = [...document.querySelectorAll(".slide")];
+    const pos = document.getElementById("pos");
+    let i = Math.max(0, Math.min(slides.length - 1, parseInt(location.hash.slice(1) || "1", 10) - 1 || 0));
+    function show(n) {
+      i = Math.max(0, Math.min(slides.length - 1, n));
+      slides.forEach((s, k) => (s.hidden = k !== i));
+      pos.textContent = `${i + 1} / ${slides.length}: ${slides[i].dataset.title}`;
+      history.replaceState(null, "", `#${i + 1}`);
+    }
+    document.getElementById("prev").onclick = () => show(i - 1);
+    document.getElementById("next").onclick = () => show(i + 1);
+    addEventListener("keydown", (e) => {
+      if (["ArrowRight", "PageDown", " "].includes(e.key)) { e.preventDefault(); show(i + 1); }
+      if (["ArrowLeft", "PageUp"].includes(e.key)) { e.preventDefault(); show(i - 1); }
+    });
+    show(i);
+  </script>
+</body>
+</html>

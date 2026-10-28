@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Red Pen</title>
+  <meta name="description" content="A one-year game about buying AI for HR. Five vendor pitches, eight hours of due diligence, one sealed meter.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Caveat:wght@600;700&family=Public+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M6 26 L22 6 L26 10 L10 30 L4 30 Z' fill='%23C8102E'/%3E%3C/svg%3E">
+</head>
+<body>
+  <header class="bar">
+    <div class="org">
+      <span class="org-mark" aria-hidden="true"></span>
+      <span><b>Three Rivers Health</b><span class="org-unit">People Analytics</span></span>
+    </div>
+    <ol class="months" id="months" aria-label="Your year"></ol>
+    <div class="hours" id="hours" aria-live="polite"></div>
+  </header>
+  <section class="meters" id="meters" aria-label="Your dashboard"></section>
+  <main id="app" tabindex="-1"></main>
+  <footer class="foot">
+    <span>A teaching game for 70-445 AI for Business Leaders, Carnegie Mellon. Three Rivers Health, its people and its vendors are fictional. The "What really happened" notes are real.</span>
+    <button type="button" class="linkish" id="restart">Start over</button>
+  </footer>
+  <script type="module" src="js/game.js"></script>
+</body>
+</html>
